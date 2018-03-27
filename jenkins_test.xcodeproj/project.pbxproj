@@ -12,6 +12,7 @@
 		2C514307206505950053FC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C514305206505950053FC6A /* Main.storyboard */; };
 		2C514309206505950053FC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C514308206505950053FC6A /* Assets.xcassets */; };
 		2C51430C206505950053FC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C51430A206505950053FC6A /* LaunchScreen.storyboard */; };
+		2CCFD6DE206A91A800CB0B7C /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CCFD6DD206A91A800CB0B7C /* ExportOptions.plist */; };
 		6338C672FE78FA08D297CD41 /* Pods_jenkins_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C7C8D4E2FACC129AA2E8A /* Pods_jenkins_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		2C514308206505950053FC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C51430B206505950053FC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C51430D206505950053FC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCFD6DD206A91A800CB0B7C /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		808C7C8D4E2FACC129AA2E8A /* Pods_jenkins_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jenkins_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA8B4C84B88EEA7B5B94732 /* Pods-jenkins_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jenkins_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-jenkins_test/Pods-jenkins_test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 		2C514300206505950053FC6A /* jenkins_test */ = {
 			isa = PBXGroup;
 			children = (
+				2CCFD6DD206A91A800CB0B7C /* ExportOptions.plist */,
 				2C514301206505950053FC6A /* AppDelegate.swift */,
 				2C514303206505950053FC6A /* ViewController.swift */,
 				2C514305206505950053FC6A /* Main.storyboard */,
@@ -153,6 +156,7 @@
 				2C51430C206505950053FC6A /* LaunchScreen.storyboard in Resources */,
 				2C514309206505950053FC6A /* Assets.xcassets in Resources */,
 				2C514307206505950053FC6A /* Main.storyboard in Resources */,
+				2CCFD6DE206A91A800CB0B7C /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
